@@ -4,6 +4,19 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.hero {
+    min-height: 50vh;
+    border-radius: 10px;
+}
+.hero-bg {
+    background-image: url(https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-overlay {
+    background-color: #00000025;
+    position: absolute;
+}
 section {
     width: 90%;
     margin: 0 auto;
