@@ -15,25 +15,16 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             display: grid;
-            grid-template-columns: 60% 40%;
-            grid-gap: 10px;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 100px 100px;
+            grid-gap: 15px;
+            grid-auto-flow: column;
         }
-        .container-1 {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-gap: 10px;
+
+        .box-5 {
+            
         }
-        .container-2 {
-            display: grid;
-            grid-template-columns: 100% 0;
-            grid-gap: 10px;
-        }
-        .container-1 div,
-        .container-2 div {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-        }
+        
         .box-1 {
             background-color: #219ebc;
         }
@@ -51,13 +42,11 @@
         }
     </style>
     <section>
-        <div class="container-1">
+        <div class="container">
             <div class="box-1">Box 1</div>
             <div class="box-2">Box 2</div>
             <div class="box-3">Box 3</div>
             <div class="box-4">Box 4</div>
-        </div>
-        <div class="container-2">
             <div class="box-5">Box 5</div>
         </div>
     </section>
